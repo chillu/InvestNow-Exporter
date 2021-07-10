@@ -3,6 +3,7 @@ import json
 import csv
 import io
 import argparse
+import sys
 
 class InvestNowExporter:
 
@@ -10,7 +11,7 @@ class InvestNowExporter:
         self.market_codes = market_codes
     
     def export(self, rows):
-        return [self._parse_row(row) for row in rows]
+        return list(filter(None, [self._parse_row(row) for row in rows]))
 
     def _parse_row(self, row):
         """Deconstruct a cryptic descrption string given by investnow to instrument_code, market_code, quantity, price and transaction_type
@@ -46,6 +47,11 @@ class InvestNowExporter:
             # Infer quantity
             quantity = round(float(row['amount']) / float(price), 2)
             transaction_type = sparse_match.group('transaction_type')
+        else:
+            # Example: Reinvest Smartshares - NZ Mid Cap Fund (NS) (MDZ) net dividend; 100% Included
+            # Ignore rows. Divident reinvestment is not supported (and can be automatic for some funds in Sharesight)
+            print('Invalid row, skipping: ' + json.dumps(row), file=sys.stderr)
+            return None
         
         return {
             "Trade Date": row['date'],
