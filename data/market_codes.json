@@ -86,5 +86,89 @@
   "Smartshares - Europe Equities ESG ETF (EUG)": {
     "instrument_code": "EUG",
     "market_code": "NZX"
+  },
+  "Smart NZ Top 50 ETF": {
+    "instrument_code": "FNZ",
+    "market_code": "NZX"
+  },
+  "Smart - NZ Top 50 Fund (NS) (FNZ)": {
+    "instrument_code": "FNZ",
+    "market_code": "NZX"
+  },
+  "Smart NZ Property ETF": {
+    "instrument_code": "NPF",
+    "market_code": "NZX"
+  },
+  "Smart - NZ Property Fund (NS) (NPF)": {
+    "instrument_code": "NPF",
+    "market_code": "NZX"
+  },
+  "Smart S&P/NZX 50 ETF": {
+    "instrument_code": "NZG",
+    "market_code": "NZX"
+  },
+  "Smart - S&P/NZX 50 ETF (NZG)": {
+    "instrument_code": "NZG",
+    "market_code": "NZX"
+  },
+  "Smart NZ Top 10 ETF": {
+    "instrument_code": "TNZ",
+    "market_code": "NZX"
+  },
+  "Smart - NZ Top 10 Fund (NS) (TNZ)": {
+    "instrument_code": "TNZ",
+    "market_code": "NZX"
+  },
+  "Smart US Large Growth ETF": {
+    "instrument_code": "USG",
+    "market_code": "NZX"
+  },
+  "Smart - US Large Growth Fund (NZ) (USG)": {
+    "instrument_code": "USG",
+    "market_code": "NZX"
+  },
+  "Smart - Emerging Markets ESG (EMG)": {
+    "instrument_code": "EMG",
+    "market_code": "NZX"
+  },
+  "Smart - Global ESG (ESG)": {
+    "instrument_code": "ESG",
+    "market_code": "NZX"
+  },
+  "Smart - US ESG (USA)": {
+    "instrument_code": "USA",
+    "market_code": "NZX"
+  },
+  "Smart - NZ Mid Cap Fund (NS) (MDZ)": {
+    "instrument_code": "MDZ",
+    "market_code": "NZX"
+  },
+  "Smart - NZ Mid Cap ETF (MDZ)": {
+    "instrument_code": "MDZ",
+    "market_code": "NZX"
+  },
+  "Smart - Europe ESG (EUG)": {
+    "instrument_code": "EUG",
+    "market_code": "NZX"
+  },
+  "Smart - Europe ESG ETF (EUG)": {
+    "instrument_code": "EUG",
+    "market_code": "NZX"
+  },
+  "Smart - Emerging Markets ESG ETF (EMG)": {
+    "instrument_code": "EMG",
+    "market_code": "NZX"
+  },
+  "Smart - Global ESG ETF (ESG)": {
+    "instrument_code": "ESG",
+    "market_code": "NZX"
+  },
+  "Smart - US ESG ETF (USA)": {
+    "instrument_code": "USA",
+    "market_code": "NZX"
+  },
+  "Harbour Sustainable Impact Fund": {
+    "instrument_code": "25159",
+    "market_code": "FundNZ"
   }
 }
